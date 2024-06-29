@@ -1,0 +1,41 @@
+.navbar {
+    background-color: #fff !important;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+.nav-ctr {
+    margin: 0 10px;
+}
+
+.highlight {
+    color: crimson;
+}
+
+.search-bar {
+    background-color: #efefef;
+    border: none;
+    border-radius: 0;
+}
+
+.search-btn {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.search-form {
+    margin-right: 15px;
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+.outer-nav {
+    display: inline;
+}
