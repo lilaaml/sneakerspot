@@ -234,7 +234,7 @@ export const normalItem = [
     {
         img: "https://i.pinimg.com/564x/6f/42/7d/6f427d43cb470c420407cd8949643fbd.jpg",
         name: "Pose Ray Flatform Chunky Shoes 'White Navy Red'",
-        brand: "Fila",
+        brand: "FILA",
         gender: "Womens",
         category: "Casual",
         price: 3199000,
@@ -244,7 +244,7 @@ export const normalItem = [
     {
         img: "https://i.pinimg.com/564x/5c/60/75/5c6075f9cb1ccff487b06b6aba64caad.jpg",
         name: "Low-Top 'White Black Beige'",
-        brand: "Fila",
+        brand: "FILA",
         gender: "Unisex",
         category: "Running",
         price: 1599000,
@@ -254,7 +254,7 @@ export const normalItem = [
     {
         img: "https://i.pinimg.com/564x/d9/37/96/d937965de65e64062154708c7a4a7459.jpg",
         name: "Energy Dis Runner 'Black Multi'",
-        brand: "Fila",
+        brand: "FILA",
         gender: "Womens",
         category: "Running",
         price: 1799000,
@@ -285,7 +285,7 @@ export const saleItem = [
     {
         img: "https://i.pinimg.com/564x/11/a9/b1/11a9b10add2de63d1adc7f3fde38a026.jpg",
         name: "Skipper Retro 'Cream White Grey'",
-        brand: "Fila",
+        brand: "FILA",
         gender: "Unisex",
         category: "Casual",
         newPrice: 2199000,
@@ -312,7 +312,7 @@ export const saleItem = [
     {
         img: "https://i.pinimg.com/564x/e6/69/bf/e669bf0f9600dd3cd954c984f0b45f46.jpg",
         name: "FUSION Smash Sneakers 'White Green'",
-        brand: "Fila",
+        brand: "FILA",
         gender: "Mens",
         category: "Casual",
         newPrice: 1999000,
