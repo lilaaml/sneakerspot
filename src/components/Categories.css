@@ -36,3 +36,15 @@
     width: 18rem;
     min-height: 550px;
 }
+
+@media only screen and (max-width: 768px) {
+    .card-body a {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 580px) {
+    .card-body a {
+        width: 55%;
+    }
+}

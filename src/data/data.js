@@ -192,12 +192,12 @@ export const normalItem = [
         firstHalf: false
     },
     {
-        img: "https://i.pinimg.com/564x/75/ed/3d/75ed3ddd12a035c34e31c09a7473f7c4.jpg",
-        name: "NASA x Convere Japan Chuck Taylor All Star 100",
-        brand: "Converse",
-        gender: "Mens",
+        img: "https://i.pinimg.com/564x/34/44/60/34446001c5d06d93eb512838d523dff8.jpg",
+        name: "UltraBoost 1.0 'Off White Wonder Quartz'",
+        brand: "adidas",
+        gender: "Womens",
         category: "Casual",
-        price: 3499000,
+        price: 1799000,
         newRelease: true,
         firstHalf: false
     },
@@ -301,13 +301,13 @@ export const saleItem = [
         oldPrice: 1799000,
     },
     {
-        img: "https://i.pinimg.com/564x/71/73/37/71733744f18c0b20b294de210be3167d.jpg",
-        name: "G4 High 'Hi-Vis Collection'",
-        brand: "Converse",
-        gender: "Unisex",
-        category: "Basketball",
-        newPrice: 999000,
-        oldPrice: 1399000,
+        img: "https://i.pinimg.com/564x/97/5e/57/975e576b361365b5460ad40e5139e8e3.jpg",
+        name: "UltraBoost All Terrain 'Off White Grey Black'",
+        brand: "adidas",
+        gender: "Mens",
+        category: "Running",
+        newPrice: 2999000,
+        oldPrice: 3499000,
     },
     {
         img: "https://i.pinimg.com/564x/e6/69/bf/e669bf0f9600dd3cd954c984f0b45f46.jpg",
