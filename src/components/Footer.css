@@ -1,0 +1,18 @@
+.footer {
+    background-color: #0c0c0c;
+    color: #efefef;
+}
+
+.footer a {
+    color: #efefef;
+}
+
+.footer hr {
+    width: 60px; 
+    background-color: #efefef; 
+    height: 2px
+}
+
+.copyright {
+    background-color: #000000;
+}
