@@ -33,8 +33,8 @@
 }
 
 .card {
-    width: 18rem;
-    min-height: 550px;
+    min-width: 15rem;
+    min-height: 350px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -43,8 +43,15 @@
     }
 }
 
-@media only screen and (max-width: 580px) {
+@media only screen and (max-width: 575px) {
     .card-body a {
-        width: 55%;
+        width: 100%;
+        padding-top: 9px;
     }
+
+    /* .card {
+        width: 15rem;
+    } */
+
+
 }

@@ -55,8 +55,7 @@ export const normalItem = [
         brand: "adidas",
         gender: "Mens",
         category: "Casual",
-        newPrice: 4099000,
-        oldPrice: 4399000,
+        price: 4399000,
         newRelease: false,
         firstHalf: true
         
@@ -265,13 +264,13 @@ export const normalItem = [
 
 export const saleItem = [
     {
-        img: "https://i.pinimg.com/564x/e4/97/be/e497be3a1db18b94d6d81de3997c6eef.jpg",
-        name: "Terrex Hyperblue Sneakers 'Black/Grey'",
-        brand: "adidas",
-        gender: "Mens",
+        img: "https://i.pinimg.com/564x/8b/58/b2/8b58b222f9107e4c0baa3d52d98dbaef.jpg",
+        name: "FUSION Palatte Sneakers 'White Yellow'",
+        brand: "FILA",
+        gender: "Womens",
         category: "Hiking",
-        newPrice: 2199000,
-        oldPrice: 2499000,
+        newPrice: 1499000,
+        oldPrice: 2199000,
     },
     {
         img: "https://i.pinimg.com/564x/d2/d2/7f/d2d27f7d180ae7be03dc0fe3f45f2060.jpg",
