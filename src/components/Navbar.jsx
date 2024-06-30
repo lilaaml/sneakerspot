@@ -2,8 +2,13 @@ import { FaRegHeart, FaRegUser  } from "react-icons/fa6";
 import { FiShoppingCart } from "react-icons/fi";
 import { FaSearch } from "react-icons/fa";
 import './Navbar.css'
+import SearchBar from './SearchBar'
+import SearchResultsList from "./SearchResultsList";
+import { useState } from 'react'
 
 const Navbar = () => {
+    const [results, setResults] = useState([])
+
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
         <div className="nav-ctr container-fluid space-between">
@@ -59,10 +64,12 @@ const Navbar = () => {
 
         <div className="collapse navbar-collapse" id="search-toggle">
             <ul className="navbar-nav search-nav">
-                <form className="d-flex search-form px-3">
-                    <input type="search" className="search-bar form-control" aria-label="Search" />
+                {/* <form className="d-flex search-form px-3">
+                    <input type="search" placeholder="Type to search..." className="search-bar form-control" aria-label="Search" value={input} onChange={(e) => handleChange(e.target.value)} />
                     <button type="submit" className="search-btn btn">Search</button>
-                </form>
+                </form> */}
+                <SearchBar setResults={setResults} />
+                <SearchResultsList results={results} />
             </ul>
         </div>
     </nav>
