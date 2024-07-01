@@ -1,4 +1,25 @@
 form {
     position: relative;
-    /* visibility: hidden; */
+}
+
+#searchResultBox {
+    overflow-y: scroll;
+    position: absolute;
+    background: #fff;
+    margin-top: 0.5rem;
+}
+
+#searchResultList {
+    margin-top: 0.6rem;
+    background-color: royalblue;
+}
+
+.search-result {
+    padding: 3px 7px;
+    margin: 2px;
+}
+
+.search-result:hover {
+    background-color: #ddd;
+    cursor: pointer;
 }
